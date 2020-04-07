@@ -12,5 +12,5 @@
     "go.formatTool": "goreturns",
     "go.goroot": "E:\\Go",
     "go.gopath": "E:\\Go_Code",
-    "go.gocodeAutoBuild": false
+    "go.gocodeAutoBuild": false,
 }
