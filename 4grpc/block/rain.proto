@@ -1,0 +1,15 @@
+syntax="proto3";
+
+option go_package = ".;block";
+
+message BlockHeaderSaveReq {
+    int32 header = 1;
+}
+
+message BlockHeaderSaveRes {
+    string res = 1;
+}
+
+service Block {
+    rpc SaveBlockHeader(BlockHeaderSaveReq) returns (BlockHeaderSaveRes);
+}
