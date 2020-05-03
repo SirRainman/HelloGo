@@ -9,8 +9,9 @@ import (
 
     "github.com/pkg/errors"
 
-	"github.com/grpc/grpc-go/examples/rain/fsblkstorage"
-	"github.com/grpc/grpc-go/examples/rain/common"
+	_ "github.com/HelloGO/4grpc/fsblkstorage"
+	_ "github.com/HelloGO/4grpc/common"
+	//_ "../common"
 )
 
 
