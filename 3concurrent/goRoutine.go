@@ -82,12 +82,12 @@ func main() {
 	// you will see that the call of goR1 and goR2 is randomly
 	// because the goroutines run asynchronously
 	// 首先了解：进程、线程、协程之间地联系与区别，goroutine的核心是协程地并行计算
-	go goRoutine1()
-	goRoutine2()
+	//go goRoutine1()
+	//go goRoutine2()
 
 	// know something about keyword 'go'
-	// differance1()
-	// differance2()
+	differance1()
+	differance2()
 
 	// to wait the back of goRoutine1 and goRoutine2
 	// because goroutine runs asynchronously, main() may end earlier than goroutines
